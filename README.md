@@ -1,9 +1,11 @@
 Frontend Milestone Project
+
 This project is my first Milestone project to describe a 1960s band that want an internet presence displaying all their events from pictures, videos and audios.
 The website has also taken into consideration events, blogs and a contact us system so they can be booked for events. I have also included links to their social platforms
 
 UX
-I use Balsamic to create a wireframe of what the evntual site will look like and in addition; it is for a 1960s band that want an internet presence displaying all their events from pictures, videos and audios.
+
+I used Balsamic to create a wireframe of what the evntual site will look like and in addition; it is for a 1960s band that want an internet presence displaying all their events from pictures, videos and audios.
 The website has also taken into consideration events, blogs and a contact us system so they can be booked for events. I have also included links to their social platforms
 
 The user story includes - 
