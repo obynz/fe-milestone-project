@@ -10,13 +10,21 @@ The website has also taken into consideration events, blogs and a contact us sys
 
 The user story includes - 
     viewing the website
+    
     links and access to profiles of band members
+    
     listening to recorded audio content
+    
     watching past video contents
+    
     viewing pictures of the band at events
+    
     booking the band for events
+    
     reading their blog stories
-A wireframe image can be found at 
+    
+A wireframe image can be found at
+
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
