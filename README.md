@@ -72,9 +72,16 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 Credits
+Bootstrap examples from
+https://www.w3schools.com/bootstrap4
+
+Font Awesome Examples from
+https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+
+
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
 The photos used in this site were obtained from ...
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from my Mentor - Viktor
