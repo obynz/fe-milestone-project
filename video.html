@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
     <body>
@@ -53,6 +54,9 @@
                             <h3 class="section-heading <uppercase">
                                 Video
                             </h3>
+                            <h4 class="audio-description">
+                                This includes a sample video released over the years by Us. Watch our video; reach out to us for bookings. we'll sure keep you entertained.
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -63,21 +67,33 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                            <div class="row">
                                 <div class="col-2">
-                                    <i class="three-reasons-icons fa fa-question" aria-hidden="true"></i>
+                                    <i class="three-reasons-icons fa fa-video-camera" aria-hidden="true"></i>
                                 </div>
-                                <div class="col-10">
-                                    <h4 class="three-reasons-heading uppercase">Introduction?</h4>
-                                    <p>
-                                        I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. 
-                                        I also have extensive experience in Security Architection in Public and 
-                                        Private Clouds. My skilss include working in an Agile, DevSecOps environment. Other skills
-                                        include - VS Code, Cloud9 IDE, Chef, Jenkins, Gradle, Kubernetes, Git, GitHub, Zap Proxy,
-                                        Burp Suite.
-                                    </p>
+                                <video autoplay muted loop id="bandxvideo">
+                                  <source src="assets/video/TheMonkees.mp4" type="video/mp4">
+                                </video>
+                                
+                                <div class="content">
+                                  <h2>Introducing the Band</h2>
+                                  <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+                                  <button id="myBtn" onclick="myFunction()">Pause</button>
                                 </div>
+                                
+                                <script>
+                                var video = document.getElementById("bandxvideo");
+                                var btn = document.getElementById("myBtn");
+                                
+                                function myFunction() {
+                                  if (video.paused) {
+                                    video.play();
+                                    btn.innerHTML = "Pause";
+                                  } else {
+                                    video.pause();
+                                    btn.innerHTML = "Play";
+                                  }
+                                }
+                                </script>
                             </div>
                         </div>
         </section>
@@ -100,14 +116,14 @@
                     <h5 class="uppercase general-sub">bookings</h5>
                     <p class="inline-block">
                         Contact us for all your event needs.
-                        <a href="booking.html" ><i class="fa fa-calendar" aria-hidden="true"></i></a>
+                        <a href="contact.html" ><i class="fa fa-calendar" aria-hidden="true"></i></a>
                     </p>
                 </div>
                 <div class="col-sm-2">
                     <h5 class="uppercase general-sub">tickets</h5>
                     <p class="inline-block">
                         By your tickets here for our next events.
-                        <a href="#" ><i class="fa fa-ticket" aria-hidden="true"></i></a>
+                        <a href="contact.html" ><i class="fa fa-ticket" aria-hidden="true"></i></a>
                     </p>
                 </div>
                 <div class="col-sm-2">

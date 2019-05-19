@@ -27,49 +27,36 @@ A wireframe image can be found at
 
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The features implemented were based mainly around HTML, CSS using frmaeworks from W3School such as Bootstrap, FontAwesome, creating mp3 audio and mp4 videos. Future enhancements will see the addition of javasript and 
+backend databases.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+This will help me develop features like
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+    Booking form
+    
+    Contact Us
+    
+    Calendar based on Events
+    
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+At this time, the contact us page is just a plain form filed page which shows the potential for interracting with a backend system. I have only used the knowledge gained to get me to this point of
+of my study so far. With future lessons, I may go back and enable more advanced features.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This section should describe the process you went through to deploy the project to a hosting platform 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+The development version has been done solely using Cloud9 IDE with integration into Githu. The production version will be deployed using Github Pages. This will be achieved by going into settings for this particular repository, scrolling down to Github Pages
+and selecting the master branch where this repository resides.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The code itself can be run within Cloud 9 by selecting the correct html page and clicking the run button at the top of the page. A URL is displayed at the bottom of the page
+which displays the link to click to and get to the published development website.
 
 Credits
 Bootstrap examples from
@@ -80,8 +67,26 @@ https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
 
 
 Content
-The text for section Y was copied from the Wikipedia article Z
+Text area has not been a lot, but most were made up by myself
+
+I took references for the following - 
+
+fontAwesome from - 
+
+https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+
+Bootstraps
+
+https://www.w3schools.com/bootstrap/bootstrap_ver.asp
+
+How to create videos, audios etc.
+
+https://www.w3schools.com/howto/default.asp
+
+
 Media
-The photos used in this site were obtained from ...
+The photos used in this site were provided as part of the sample files by CodeInstitute. I have not added any additional content
+
+
 Acknowledgements
-I received inspiration for this project from my Mentor - Viktor
+I received inspiration for this project from my Mentor - Victor
