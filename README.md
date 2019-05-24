@@ -28,7 +28,7 @@ A wireframe image can be found at
 
 Features
 
-The features implemented were based mainly around HTML, CSS using frmaeworks from W3School such as Bootstrap, FontAwesome, creating mp3 audio and mp4 videos. Future enhancements will see the addition of javasript and 
+The features were initially  based around the mini project as my first entry into creating modern website. This gave be some leverage as to where to start from. Implemented features were based mainly around HTML, CSS using frmaeworks from W3School such as Bootstrap, FontAwesome, creating mp3 audio and mp4 videos. Future enhancements will see the addition of javasript and 
 backend databases.
 
 This will help me develop features like
@@ -38,6 +38,10 @@ This will help me develop features like
     Contact Us
     
     Calendar based on Events
+    
+    Slideshows
+    
+    Interactive Galleries
     
 
 
@@ -71,15 +75,25 @@ Text area has not been a lot, but most were made up by myself
 
 I took references for the following - 
 
+
 fontAwesome from - 
+
+
 
 https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
 
+
+
 Bootstraps
+
 
 https://www.w3schools.com/bootstrap/bootstrap_ver.asp
 
+
+
 How to create videos, audios etc.
+
+
 
 https://www.w3schools.com/howto/default.asp
 

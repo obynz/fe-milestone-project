@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #253748;
+    background-color: #bccddc;
 }
 
 .bg-color-video {
@@ -89,19 +89,19 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-weight: 150;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #280000;
 }
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: bold;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #280000;
 }
 
 #nav {
@@ -113,9 +113,10 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 70px;
     text-align: center;
     padding: 0;
+    border-radius: 0 15px;
 }
 
 .menuitem a {
@@ -129,7 +130,7 @@ header {
     padding-top: 22px;
     display: block;
     color: #fafafa;
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .menuitem span {
@@ -138,7 +139,7 @@ header {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -147,7 +148,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 70px;
 }
 
 /*--------------------------------------------Footer*/
@@ -200,8 +201,6 @@ footer .calendar i:hover {
 #footer-details {
     margin: 20px;
 }
-
-
 
 /*--------------------------------------------profile*/
 .timeline-item {
@@ -377,4 +376,52 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
+}
+
+/*--------------------------------------------Event History*/
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #330000;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: .8em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-heading {
+    color: #330000;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
