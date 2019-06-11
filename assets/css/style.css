@@ -3,11 +3,11 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #bccddc;
+    background-color: #804000;
 }
 
 .bg-color-video {
-    background-color: #6FA8DC;
+    background-color: #006280;
 }
 
 .bg-color-theband {
@@ -15,14 +15,14 @@
 }
 
 .bg-color-about-us {
-    background-color: #6FA8DC;
+    background-color: #006280;
 }
 .bg-color-pictures {
-    background-color: #6FA8DC;
+    background-color: #006280;
 }
 
 .bg-color-audio {
-    background-color: #6FA8DC;
+    background-color: #006280;
 }
 
 .bg-color-booking {
@@ -30,7 +30,7 @@
 }
 
 .bg-color-contact {
-    background-color: #6FA8DC;
+    background-color: #006280;
 }
 
 .ui-menu-color-home {
@@ -62,7 +62,7 @@
 }
 
 .bg-color-band-profiles {
-    background-color: #6FA8DC;
+    background-color: #006280;
 }
 
 
@@ -89,10 +89,10 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 150;
+    font-weight: bold;
     font-size: 46px;
     margin-top: 50px;
-    color: #280000;
+    color: #C9C9C9;
 }
 
 .title {
@@ -101,7 +101,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #280000;
+    color: #C9C9C9;
 }
 
 #nav {
@@ -206,7 +206,7 @@ footer .calendar i:hover {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #B8C4CC;
     border-left: 1px solid;
 }
 
@@ -382,7 +382,6 @@ button[type="submit"] {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #330000;
     border-left: 1px solid;
 }
 
@@ -417,7 +416,7 @@ button[type="submit"] {
 }
 
 .history-heading {
-    color: #330000;
+    color: #C9C9C9;
     margin-bottom: 50px;
     margin-top: 50px;
 }
