@@ -23,7 +23,7 @@ The user story includes -
     
     reading their blog stories
     
-A wireframe image can be found at
+    A wireframe image can be found at  assets/images/FE Milestone Project.png
 
 
 Features
@@ -33,15 +33,17 @@ backend databases.
 
 This will help me develop features like
 
-    Booking form
+    Booking using the contact us form
     
     Contact Us
     
-    Calendar based on Events
+    Timeline Events
     
-    Slideshows
+    Picture page
     
-    Interactive Galleries
+    Video page
+    
+    Music page for their audio files
     
 
 
@@ -49,15 +51,11 @@ Contact form:
 At this time, the contact us page is just a plain form filed page which shows the potential for interracting with a backend system. I have only used the knowledge gained to get me to this point of
 of my study so far. With future lessons, I may go back and enable more advanced features.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform 
 
-The development version has been done solely using Cloud9 IDE with integration into Githu. The production version will be deployed using Github Pages. This will be achieved by going into settings for this particular repository, scrolling down to Github Pages
-and selecting the master branch where this repository resides.
+The development version has been done solely using Cloud9 IDE with integration into Github. The production version will be deployed using Github Pages. This will be achieved by going into settings for this particular repository, scrolling down to Github Pages
+and selecting the master branch where this repository resides. The website is hosted on github at https://obynz.github.io/fe-milestone-project/
 
 The code itself can be run within Cloud 9 by selecting the correct html page and clicking the run button at the top of the page. A URL is displayed at the bottom of the page
 which displays the link to click to and get to the published development website.
