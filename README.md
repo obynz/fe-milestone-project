@@ -60,6 +60,10 @@ and selecting the master branch where this repository resides. The website is ho
 The code itself can be run within Cloud 9 by selecting the correct html page and clicking the run button at the top of the page. A URL is displayed at the bottom of the page
 which displays the link to click to and get to the published development website.
 
+Bugs
+
+Due to time wasted on my part due to external work commitment and to save time; some bugs and errors found as a result of running this through jigsaw have been left unsolved. I hoping I get better at this as I progress.
+
 Credits
 Bootstrap examples from
 https://www.w3schools.com/bootstrap4
