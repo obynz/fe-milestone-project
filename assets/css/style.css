@@ -315,7 +315,7 @@ html {
 /*--------------------------------------------Video */
 
 #bandxvideo {
-  position: fixed;
+  position: inherit;
   right: 0;
   bottom: 0;
   min-width: 70%; 
